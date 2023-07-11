@@ -6,7 +6,7 @@ body{
 
 
 .nav{
-  padding: 0px;
+  padding: .3rem;
   box-sizing: border-box;
   box-shadow: 1px 1px 4px 2px #ccc;
   background-color: #fff;
