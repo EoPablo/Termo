@@ -140,14 +140,22 @@ body{
  
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
+  body {
+    overflow-x: hidden;
+  }
   .keyboard-button{
     padding: .2rem;
   }
 
-
   .tooltip {
     width: 50vw;
   }
+
+  .first-row, .second-row, .third-row {
+    margin: 2 5px;
+  }
+
+  
 
 }
