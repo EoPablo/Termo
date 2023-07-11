@@ -142,7 +142,8 @@ body{
 
 @media screen and (max-width: 375px) {
   .keyboard-button{
-    padding: .1rem;
+    width: fit-content;
+    padding: .4rem;
   }
 
 
