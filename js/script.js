@@ -1,5 +1,22 @@
 import { WORDS } from "./words.js";
 
+
+const iconHelp = document.querySelector('.ajuda');
+const tooltip = document.querySelector('.tooltip');
+//
+const action = ({type}) => { // desestruturando o event.type
+    type === 'mouseover' ? tooltip.classList.add('active') : tooltip.classList.remove('active');
+};
+const events = ['mouseover','mouseout'];
+events.forEach((e,i) => {
+    iconHelp.addEventListener(e,action);
+});
+
+
+
+
+
+
 const NUMBER_OF_GUESSES = 6;
 let guessesRemaining = NUMBER_OF_GUESSES;
 let currentGuess = [];

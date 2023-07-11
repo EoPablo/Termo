@@ -1,12 +1,70 @@
-h1 {
-    text-align: center;
-    font-family: 'Mitr', sans-serif;
-   }
-   
+body{
+  font-family: 'Mitr', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav{
+  padding: .3rem;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px 2px #ccc;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.ajuda{
+  height: 30px;
+  width: 30px;
+  transition: .4s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+/* TOOLTIP */
+
+.tooltip{
+  display: none;
+}
+.tooltip.active{
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 1rem;
+  display: block;
+  animation: .3s show forwards;
+}
+[data-title="tooltip"]{
+  text-align: center;
+}
+[data-title="type"]{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+/*animação*/
+@keyframes show{
+  from{
+      opacity: 0;
+      transform: translateX(-3rem);
+  }
+  to{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+/* GAME BOARD */
+
    #game-board {
      display: flex;
      align-items: center;
      flex-direction: column;
+     margin-top: 25px;
    }
    
    .letter-box {
