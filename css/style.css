@@ -131,7 +131,7 @@ body{
 
 
 
-/*
+
 @media screen and (max-width: 600px ) {
   body {
     display: flex;
@@ -156,8 +156,8 @@ body{
   } 
 
   .keyboard-cont {
-
+    font-size: 0.4rem;
+    padding: 0 5px;
   }
 
 }
-*/
