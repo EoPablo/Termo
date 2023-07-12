@@ -95,6 +95,7 @@ body{
      margin: 1rem 0;
      display: flex;
      flex-direction: column;
+     justify-content: center;
      align-items: center;
    }
    
@@ -130,6 +131,7 @@ body{
 
 
 
+/*
 @media screen and (max-width: 600px ) {
   body {
     display: flex;
@@ -141,9 +143,6 @@ body{
 }
 
 @media screen and (max-width: 390px) {
-  body {
-    overflow-x: hidden;
-  }
   .keyboard-button{
     padding: .2rem;
   }
@@ -154,8 +153,11 @@ body{
 
   .first-row, .second-row, .third-row {
     margin: 2 5px;
+  } 
+
+  .keyboard-cont {
+
   }
 
-  
-
 }
+*/
