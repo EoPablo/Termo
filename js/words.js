@@ -1,4 +1,4 @@
 export const WORDS = [
-    'gayyy',
+    'gaydm',
     'pablo',
 ]
