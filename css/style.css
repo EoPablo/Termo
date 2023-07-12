@@ -152,7 +152,8 @@ body{
   }
 
   .first-row, .second-row, .third-row {
-    margin: 2 5px;
+    padding: 8px;
+    font-size: .8rem;
   } 
 
   .keyboard-cont {
