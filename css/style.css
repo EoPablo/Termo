@@ -131,13 +131,11 @@ h1 {
     flex-direction: column;
   }
 
-  .footer {
-    display: none;
-  }
+  
  
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
   .keyboard-button{
     padding: .2rem;
   }
@@ -152,13 +150,7 @@ h1 {
   } 
 
   #keyboard-cont {
-    font-size: 0.4rem;
-    padding: 0 5px;
-    flex-wrap: wrap;
-  }
-
-  .footer {
-    display: none;
+    width:auto;
   }
 
 }
