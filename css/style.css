@@ -156,9 +156,10 @@ body{
     font-size: .8rem;
   } 
 
-  .keyboard-cont {
+  #keyboard-cont {
     font-size: 0.4rem;
     padding: 0 5px;
+    flex-wrap: wrap;
   }
 
 }
