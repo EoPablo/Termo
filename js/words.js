@@ -1,4 +1,4 @@
 export const WORDS = [
-    'chata',
+    'feioo',
     'pablo',
 ]
