@@ -88,7 +88,7 @@ function checkGuess() {
     return;
   }*/
 
-  var letterColor = ["gray", "gray", "gray", "gray", "gray"];
+  var letterColor = ["red", "red", "red", "red", "red"];
 
   //check green
   for (let i = 0; i < 5; i++) {
