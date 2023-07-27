@@ -121,14 +121,40 @@ h1 {
    }
 
 
-   @media(max-width: 480px) {
-      .tooltip {
-        width: 100px;
-      }
 
-      #keyboard-cont {
-        width: 100%;
-      }
+
+@media screen and (max-width: 600px ) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
   
-   }
+ 
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    overflow: hidden;
+  }
+
+  .keyboard-button{
+    padding: .2rem;
+  }
+
+  .tooltip {
+    width: 50vw;
+  }
+
+  .first-row, .second-row, .third-row {
+    padding: 8px;
+    font-size: .8rem;
+  } 
+
+  #keyboard-cont {
+    width:auto;
+  }
+
+}
